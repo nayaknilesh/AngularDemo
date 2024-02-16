@@ -8,6 +8,6 @@ import { IForm } from './interface/form.interface';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Dynamicform';
+  title = 'DynamicForm';
   registerForm = registerFormConfig as IForm
 }
