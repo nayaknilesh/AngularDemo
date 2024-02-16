@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { registerFormConfig } from './constants/register-form-constant';
+import { IForm } from './interface/form.interface';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dynamicform';
+  registerForm = registerFormConfig as IForm
 }
